@@ -3,8 +3,8 @@
 def sehamowme_luwia_tu_kenti():
     num=int(input("enter number:",))
     if num % 2 == 0 :
-        print("false")
-    elif num % 2 != 0 :
         print("true")
+    elif num % 2 != 0 :
+        print("false")
 
 sehamowme_luwia_tu_kenti()

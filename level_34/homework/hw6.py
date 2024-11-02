@@ -2,9 +2,7 @@
 
 def simbolota_raodenoba():
     name=str(input("enter txt:",))
-    for i in (name):
-        print(name)
+    print(name)
     
-
 simbolota_raodenoba()
 
