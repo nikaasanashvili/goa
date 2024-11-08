@@ -2,21 +2,22 @@
 # მათემატიკური ოპერატორიდან გამომდინარე დაგიბრუნოთ პასუხი, თუ მაგალითად მომხმარებელამ შემოიტანა 5 და 10 ხოლო მას უნდა ამ ორი რიცხვის დამატება ანუ მესამე პარამეტრი არის "+" პლიუსი ეს
 #  ორი რიცხვი შეიკრიბოს 5 + 10 = 15
 
-num1=int(input("enter num1:",))
-num2=int(input("enter num2:",))
 
-def kalkulatori(num1, num2):
+def kalkulatori(num1, num2, operator):
     user=input("enter * + % - :",)
     if user == "%":
-        print(num1 % num2)
+        return num1 % num2
         
-    elif user == "-":
-        print(num1 - num2)
+    elif user == "//":
+        return num1 // num2
 
     elif user == "+":
-        print(num1 + num2)
+        return num1 + num2
 
     elif user == "*":
-        print(num1 * num2)
+        return num1 * num2
 
-kalkulatori(num1,  num2)
+kalkulatori(10, 5, "*")
+kalkulatori(10, 5, "%")
+kalkulatori(10, 5, "+")
+kalkulatori(10, 5, "//")
