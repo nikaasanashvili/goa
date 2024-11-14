@@ -3,8 +3,10 @@
 #  ორი რიცხვი შეიკრიბოს 5 + 10 = 15
 
 
-def kalkulatori(num1, num2, operator):
-    user=input("enter * + % - :",)
+user=input("enter * + % - :",)
+
+def kalkulatori(num1, num2, operator):   
+
     if user == "%":
         return num1 % num2
         
