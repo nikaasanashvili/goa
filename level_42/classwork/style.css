@@ -1,0 +1,23 @@
+input[type="text"]{
+    border: none;
+    background-color: black;
+}
+input[type="number"]{
+    border: none;
+    background-color:  greenyellow;
+}
+input[type="email"]{
+    border: none;
+    background-color: blue;
+}
+input[type="password"]{
+    border: none;
+    background-color: orange;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 500% 500% 0%;
+}

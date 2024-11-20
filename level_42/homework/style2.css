@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
+button:hover{
+    width: 200px;
+    height: 100px;
+}
+
+
+#html{
+    background-color: brown;
+}
+
+#css{
+    background-color: blue;
+}
+
+#javascript{
+    background-color: yellow;
+}
+
+#pyton{
+    background-color: blue;
+}
+
+
+#html:hover{
+    box-shadow: 10px 15px rgb(218, 57, 57);
+    transition: 0,5s;
+    border: 5px solid ;
+    width: 200px;
+    height: 100px;
+
+}
+#css:hover{
+    box-shadow: 10px 15px rgb(54, 54, 255);
+    transition: 0,5s;
+    border: 5px solid ;
+    width: 200px;
+    height: 100px;
+
+}
+
+#pyton:hover{
+    box-shadow: 10px 15px yellow;
+    transition: 0,5s;
+    border: 5px solid;
+    width: 200px;
+    height: 100px;
+
+}
+
+#javascript:hover{
+    box-shadow: 10px 15px rgb(255, 255, 90);
+    transition: 0,5s;
+    border: 5px solid ;
+    width: 200px;
+    height: 100px;
+
+}
+
+
