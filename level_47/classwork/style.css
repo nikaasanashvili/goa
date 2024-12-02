@@ -1,0 +1,17 @@
+#d1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.d1{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}

@@ -65,7 +65,8 @@ button:hover{
     border: 5px solid ;
     width: 200px;
     height: 100px;
-
 }
 
-
+button{
+    margin-left: 46%;
+}

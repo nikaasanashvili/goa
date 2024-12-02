@@ -1,0 +1,26 @@
+#d1{
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: gainsboro;
+}
+
+#d2{
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: blue;
+}
+
+#d3{
+    background-color: rgb(61, 90, 255);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#p1{
+    margin-left: 30px;
+    color: wheat;
+}
