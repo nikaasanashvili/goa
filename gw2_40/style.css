@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(3, 3, 8);
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+#goa{
+    font-size: 100px;
+    color: green;
+}
+
+.horor1{
+    display: flex;
+}
+
+.horor{
+    margin: 100px;
+}
+
+
+
+.komedia1{
+    display: flex;
+}
+
+.komedia{
+    margin: 100px;
+}
+
+.marvel1{
+    display: flex;
+}
+
+.marvel{
+    margin: 100px;
+}
+
+
+
+
