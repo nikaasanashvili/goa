@@ -1,0 +1,41 @@
+body{
+    background-image: url("images/bg-desktop.svg");
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div{
+    width: 50%;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+main button{
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 2% 5%;
+    color: blueviolet;
+}
+
+footer button{
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+footer{
+    display: flex;
+    justify-content: end;
+}
+
+h2{
+    color: white;
+}
