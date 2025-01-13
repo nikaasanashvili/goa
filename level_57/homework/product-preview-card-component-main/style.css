@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 234, 227);
+}
+
+img{
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+h5, p, h3{
+    color: rgb(119, 120, 135);
+}
+
+#price h1{
+    color: rgb(61, 130, 104);
+}
+
+#icon{
+    width: 10px;
+    height: 10px;
+}
+
+button{
+    background-color: rgb(61, 130, 104);
+    font-size: 30px;
+    border-radius: 8px;
+}
+
