@@ -1,0 +1,26 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 5s;
+    animation-name: translation;
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes translation{
+    from{
+        background-color: green;
+        width: 100px;
+        height: 100px;
+    }
+
+    to{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transform:  rotate(360deg);
+    }
+}

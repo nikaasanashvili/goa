@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    height: 90.3vh;
+}
+
+#d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#scwear{
+    width: 50px;
+    height: 50px;
+    border: solid red;
+    border-width: 7px;
+    box-shadow: -1px 1px 10px  rgb(73, 253, 251);
+    border-radius: 3px;
+    transition: 2s;
+    animation-name: d1;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+    animation-name: d2;
+    
+}
+
+
+
+#loading{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#loading1{
+    width: 10px;
+    height: 100%;
+    background-color: aqua;
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    border-radius: 30px;
+}
+
+input{
+    width: 160px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+input:hover{
+    
+    box-shadow: -1px 1px 10px  rgb(73, 253, 251);
+    transition: 0.5s;
+}
+
+@keyframes loading{
+    from{
+        
+        
+    }
+    
+    to{
+        width: 400px;
+    }
+}
+
+
+
+
+@keyframes d1{
+    from{
+
+    }
+
+    to{
+           
+        transform: rotateX(180deg);
+    }
+}
+
+@keyframes d2{
+    from{
+
+    }
+
+    to{
+        transform: rotateY(180deg); 
+    }
+}
