@@ -7,4 +7,3 @@ for i in num:
     if i > larges:
         larges=i
 print(larges)
-
