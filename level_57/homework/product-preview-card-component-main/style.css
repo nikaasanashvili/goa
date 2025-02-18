@@ -4,6 +4,13 @@ body{
     background-color: rgb(242, 234, 227);
 }
 
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 img{
     width: 350px;
     height: 450px;
@@ -29,3 +36,8 @@ button{
     border-radius: 8px;
 }
 
+#Perfume{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}

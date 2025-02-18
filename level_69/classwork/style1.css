@@ -1,0 +1,17 @@
+div{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px ;
+    gap: 10px;
+
+    
+}
+
+.d1{
+   
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
