@@ -1,0 +1,15 @@
+#d1{
+    display: grid; 
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;  
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    
+}
+
+#d2{
+   
+   
+    grid-area: 5 / 3 / 9 / 7;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

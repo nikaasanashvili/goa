@@ -1,0 +1,100 @@
+#d1{
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns:350px 350px 350px 350px;
+    gap: 25px;
+   
+}
+div{
+    border-radius: 10px;
+}
+
+#daniel{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#Jeanette{
+    grid-column-start: 1;
+
+}
+
+#jeanette{
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#particular{
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+}
+
+#kira{
+    grid-column: 4;
+    grid-row-start: 1;
+}
+
+
+#daniel{
+    background-color: rgb(115, 62, 200);
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+}
+
+#Jonathan{
+    background-color: rgb(72, 85, 107);
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+
+}
+
+#Jeanette{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+#particular{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(25, 31, 45);
+    border-radius: 10px;
+}
+
+#kira{
+    height: 800px;
+    width: 350px;
+}
+
+p{
+    color: white;
+}
+
+.p1{
+    color: black;
+}
+
+h5{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+.j{
+    color: black;
+}
+
+h3{
+    color: white;
+}
+
+
+.icons{
+    box-shadow: gray 1px 1px 10px;
+}
+
