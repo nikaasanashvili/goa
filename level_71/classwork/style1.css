@@ -1,0 +1,34 @@
+header{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    gap: 300px;
+    height: 70px;
+}
+h3{
+    padding-left: 80px;
+}
+
+b{
+    color: rgb(250, 81, 3);
+}
+
+#section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+a{
+    font-size: 1.2rem;
+    color: white;
+}
+
+a:hover{
+    color: rgb(250, 81, 3);
+}
+
+button{
+    width: 90px;
+    height: 50px;
+}
