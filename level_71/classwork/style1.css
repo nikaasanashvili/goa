@@ -1,15 +1,22 @@
 header{
     background-color: rgb(48, 48, 48);
     display: flex;
+    align-items: center;
     gap: 300px;
     height: 70px;
+    box-shadow: rgb(250, 81, 3) -10px -10px;
 }
-h3{
-    padding-left: 80px;
+.name{
+    padding-left: 90px;
 }
 
 b{
     color: rgb(250, 81, 3);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
 }
 
 #section{
@@ -29,6 +36,18 @@ a:hover{
 }
 
 button{
-    width: 90px;
-    height: 50px;
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+    border: none;
+}
+
+#foto{
+    padding-left: 1300px;
+}
+
+img{
+    border-radius: 100px;
+    height: 300px;
+    width: 250px;
 }
