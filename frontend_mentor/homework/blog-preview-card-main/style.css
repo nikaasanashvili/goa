@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(245, 208, 78);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 510px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: black 10px 10px ;
+    border: solid black;
+    
+}
+h1{
+    font-size: 25px;
+}
+img{
+    border-radius: 15px;
+}
+button{
+    background-color: rgb(245, 206, 90);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+}
+
+#greg{
+    display: flex;
+    align-items: center;
+}
+
+#hooper{
+    width: 40px;
+    height: 40px;
+}
+
+#name{
+    padding-left: 10px;
+}
